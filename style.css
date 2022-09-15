@@ -1,0 +1,124 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-left: 42px;
+    margin-top: 47px;
+}
+
+.link-header{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    
+}
+
+.button-sign{
+    width: 124px;
+    height: 51px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+section{
+    margin-left: 82px;
+    display: inline-block;
+}
+
+img{
+    margin: 163px 0 0 123px;
+}
+h1{
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    margin-top: 342px;
+    
+}
+
+p{
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+}
+
+.more{
+    width: 112px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+color: #6FBF44;
+}
+div{
+    display: inline-block;
+}
+.sign{
+    display: inline-block;
+    position: relative;
+}
+@media  screen and (max-width: 400px) {
+    .menu{
+        display: none;
+    }
+    .button-sign{
+        position: absolute;
+        left: 195px;
+        bottom: 0;
+    }
+    img{
+        position: absolute;
+        height: 312px;
+        right: 7px;
+        top: 350px;
+        bottom: 22px;
+    }
+    h1{
+        display: inline-block;
+        position: absolute;
+        text-align: left;
+        font-size: 30px;
+        left: 19px;
+        bottom: 580px;
+    }
+    p{
+        position: absolute;
+        text-align: center;
+        font-size: 18px;
+        left: 2px;
+        width: 384px;
+        bottom: 485px;
+    }
+    .more{
+        position:relative;
+        top: 300px;
+        text-align: center;
+        left: 45px;
+    }
+  
+}
