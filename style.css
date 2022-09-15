@@ -93,26 +93,29 @@ div{
     }
     img{
         position: absolute;
-        height: 312px;
-        right: 7px;
-        top: 350px;
+        height: 300px;
+        right: 24px;
+        top: 300px;
         bottom: 22px;
     }
     h1{
         display: inline-block;
         position: absolute;
         text-align: left;
-        font-size: 30px;
+        font-size: 43px;
         left: 19px;
-        bottom: 580px;
+        bottom: 587px;
+        height: 166px;
+        width: 339px;
     }
     p{
         position: absolute;
         text-align: center;
-        font-size: 18px;
+        font-size: 11px;
         left: 2px;
-        width: 384px;
+        width: 371px;
         bottom: 485px;
+        height: 64px;
     }
     .more{
         position:relative;
