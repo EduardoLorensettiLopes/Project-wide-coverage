@@ -1,4 +1,4 @@
-<h1>Wide Coverage Project</h1>
+<h1>We Care Project</h1>
 <br>
 <h2>Here is the demo page:</h2>
 <br>
